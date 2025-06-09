@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Bahij+Badr&family=Bahij+Titree&display=swap');
+
+body {
+  margin: 0;
+  font-family: 'Bahij Badr', sans-serif;
+  background-color: #4c0082;
+  color: white;
+}
+
+.font-bahijtitree {
+  font-family: 'Bahij Titree', cursive;
+}
+
+.font-bahijbadr {
+  font-family: 'Bahij Badr', sans-serif;
+}
+
+.card {
+  background-color: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  border-radius: 1rem;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+  padding: 1.5rem;
+  text-align: center;
+}
+
+button {
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
